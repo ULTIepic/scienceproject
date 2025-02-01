@@ -10,6 +10,7 @@
             line-height: 1.6;
             background-color: #f4f4f4;
             padding: 20px;
+            word-wrap: break-word; /* Ensures text wraps properly */
         }
         h1, h2 {
             color: #333;
@@ -17,9 +18,39 @@
         p {
             text-align: justify;
         }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        header ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        header ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        header ul li a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
+    <header>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li>Transdifferentiation</li>
+            <li><a href="turritopsis_dohrnii.html">Turritopsis dohrnii</a></li>
+        </ul>
+    </header>
+
     <h1>Transdifferentiation</h1>
     <p>Also known as family reprogramming, transdifferentiation is the process in which one mature body-related cell is changed into another mature body-related cell without going through a pluripotent state or ancestor cell type. It is a type of metaplasia, which includes all cell fate switches, including the interconversion of stem cells. Current uses of transdifferentiation include disease modeling and drug discovery, and in the future may include gene therapy and regenerative medicine.</p>
     
@@ -37,13 +68,7 @@
     
     <h2>Issues</h2>
     <p>There are several challenges associated with transdifferentiation. Generally, transdifferentiation that occurs in mouse cells does not always translate effectively to human cells. The order of expression of transcription factors can direct the fate of the cell, and improper sequencing may hinder successful reprogramming. Immunogenicity remains a concern, as foreign molecules entering cells can lead to immune rejection. Additionally, the method of transfection must be carefully considered to minimize potential risks, including tumorigenesis.</p>
-</body>
-</html>
-<html>
-<head>
-    <title>References</title>
-</head>
-<body>
+    
     <h2>References</h2>
     <ul>
         <li>Orkin, S. H.; Zon, L. I. (2008). "Hematopoiesis: An Evolving Paradigm for Stem Cell Biology". Cell. 132 (4): 631–644. <a href="https://doi.org/10.1016/j.cell.2008.01.025">doi:10.1016/j.cell.2008.01.025</a>. PMC 2628169. PMID 18295580.</li>
